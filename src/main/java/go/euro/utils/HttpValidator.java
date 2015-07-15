@@ -54,6 +54,7 @@ public abstract class HttpValidator {
     }
 
     public static <T> void validateResponse(Response response, Class<T> errorClazz) {
+        logger.info("Validating the response that came...");
         int responseStatus = response.getStatus();
         if (Family.familyOf(responseStatus) != Family.SUCCESSFUL) {
             T responseEntity = null;

@@ -170,7 +170,7 @@ public abstract class HttpCommunication {
         return response;
     }
 
-    public static MultivaluedMap<String, Object> createHeaders(Map<String,Object> headers) {
+    public static MultivaluedMap<String, Object> createHeaders(Map<String,String> headers) {
         MultivaluedMap<String, Object> headerAuth = new MultivaluedHashMap<String, Object>();
 
         for(String k : headers.keySet()) {
