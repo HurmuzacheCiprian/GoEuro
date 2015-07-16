@@ -1,5 +1,7 @@
 package go.euro.main;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import go.euro.model.GoEuroResponse;
 import go.euro.service.RequestService;
 import org.apache.commons.codec.binary.StringUtils;
@@ -29,18 +31,27 @@ public class GoEuroTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         RequestService requestService = context.getBean("requestService",RequestService.class);
 
-        logger.info("Path param {}",args[0]);
+
+
 
         if(checkArgs(args)) {
-            pathParams.add(args[0]);
+            pathParams.add("test");
         }
+        pathParams.add("test");
+        logger.info("Path param {}",pathParams.size());
 
         Map<String,String> h = createHeaders(headers,"Content-Type","application/json");
         Response response = requestService.getRequest(h,pathParams);
 
-        GoEuroResponse euroResponse = readResponse(response,GoEuroResponse.class);    //automatically closes the response
+        Gson gson = new Gson();
+        String json = readResponse(response, GoEuroResponse.class).toString();
+        logger.info("RESPONSE JSON : {}",json);
+        List<GoEuroResponse> euroResponses = gson.fromJson(json, new TypeToken<List<GoEuroResponse>>(){}.getType());
 
-        logger.info("Response received {}",euroResponse);
+        for(GoEuroResponse goEuroResponse : euroResponses) {
+            logger.info("received response:",goEuroResponse);
+        }
+
     }
 
     private static boolean checkArgs(String[] args) {

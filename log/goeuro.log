@@ -1,0 +1,180 @@
+2015-07-16T10:26:44.838+0300 | GoEuro: | INFO  | (GoEuroTest.java:33) | [main] | Path param test 
+2015-07-16T10:26:44.839+0300 | GoEuro: | INFO  | (GoEuroTest.java:49) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:26:44.840+0300 | GoEuro: | INFO  | (RequestService.java:34) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:27:19.439+0300 | GoEuro: | INFO  | (GoEuroTest.java:33) | [main] | Path param test 
+2015-07-16T10:27:19.441+0300 | GoEuro: | INFO  | (GoEuroTest.java:49) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:27:19.441+0300 | GoEuro: | INFO  | (RequestService.java:34) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:28:36.364+0300 | GoEuro: | INFO  | (GoEuroTest.java:33) | [main] | Path param test 
+2015-07-16T10:28:36.365+0300 | GoEuro: | INFO  | (GoEuroTest.java:49) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:28:36.366+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:28:36.391+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to  
+2015-07-16T10:28:36.391+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:29:38.791+0300 | GoEuro: | INFO  | (GoEuroTest.java:33) | [main] | Path param test 
+2015-07-16T10:29:38.792+0300 | GoEuro: | INFO  | (GoEuroTest.java:49) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:29:38.792+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:29:38.828+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en 
+2015-07-16T10:29:38.828+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:30:36.154+0300 | GoEuro: | INFO  | (GoEuroTest.java:33) | [main] | Path param test 
+2015-07-16T10:30:36.156+0300 | GoEuro: | INFO  | (GoEuroTest.java:49) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:30:36.156+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:30:36.190+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en 0 
+2015-07-16T10:30:36.191+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:33:26.739+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:33:26.741+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 0 
+2015-07-16T10:33:26.741+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:33:26.775+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en 0 
+2015-07-16T10:33:26.775+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:33:44.951+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:33:44.953+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:33:44.954+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:33:44.979+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 
+2015-07-16T10:33:44.979+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:34:35.340+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:34:35.342+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:34:35.342+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:34:35.368+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 
+2015-07-16T10:34:35.369+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:35:52.872+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:35:52.875+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:35:52.875+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:35:52.905+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:35:52.906+0300 | GoEuro: | ERROR | (HttpCommunication.java:166) | [main] | Error while making request. Exception message  
+2015-07-16T10:39:10.230+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:39:10.232+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:39:10.232+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:39:10.265+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:39:10.266+0300 | GoEuro: | ERROR | (HttpCommunication.java:167) | [main] | Error while making request. Exception message  
+2015-07-16T10:39:35.818+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:39:35.820+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:39:35.820+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:39:35.847+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:39:35.848+0300 | GoEuro: | ERROR | (HttpCommunication.java:167) | [main] | Error while making request. Exception message  
+2015-07-16T10:39:53.167+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:39:53.169+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:39:53.169+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:39:53.197+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:39:53.198+0300 | GoEuro: | ERROR | (HttpCommunication.java:168) | [main] | Error while making request. Exception message  
+2015-07-16T10:40:10.875+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:40:10.877+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:40:10.877+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:40:10.903+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:40:10.904+0300 | GoEuro: | INFO  | (HttpCommunication.java:130) | [main] | Response null 
+2015-07-16T10:40:10.904+0300 | GoEuro: | ERROR | (HttpCommunication.java:169) | [main] | Error while making request. Exception message  
+2015-07-16T10:40:22.876+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:40:22.878+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:40:22.878+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:40:22.912+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:40:22.912+0300 | GoEuro: | INFO  | (HttpCommunication.java:130) | [main] | Response [!!!com.sun.proxy.$Proxy17@2adc3416=>java.lang.IllegalStateException:No Scope registered for scope 'thread'!!!] 
+2015-07-16T10:40:22.913+0300 | GoEuro: | ERROR | (HttpCommunication.java:169) | [main] | Error while making request. Exception message  
+2015-07-16T10:44:30.645+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:44:30.647+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:44:30.647+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:44:30.673+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:44:30.674+0300 | GoEuro: | INFO  | (HttpCommunication.java:130) | [main] | Response [!!!com.sun.proxy.$Proxy17@1533a69e=>java.lang.IllegalStateException:No Scope registered for scope 'thread'!!!] 
+2015-07-16T10:44:30.674+0300 | GoEuro: | ERROR | (HttpCommunication.java:169) | [main] | Error while making request. Exception message  
+2015-07-16T10:51:15.797+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:51:15.799+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:51:15.800+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:51:15.824+0300 | GoEuro: | INFO  | (HttpCommunication.java:128) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:51:15.825+0300 | GoEuro: | INFO  | (HttpCommunication.java:130) | [main] | Response [!!!com.sun.proxy.$Proxy17@17df3aeb=>java.lang.IllegalStateException:No Scope registered for scope 'thread'!!!] 
+2015-07-16T10:51:15.825+0300 | GoEuro: | ERROR | (HttpCommunication.java:169) | [main] | Error while making request. Exception message  
+2015-07-16T10:53:06.615+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:53:06.618+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:53:06.618+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:53:06.645+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:53:06.645+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response [!!!com.sun.proxy.$Proxy17@20be9067=>java.lang.IllegalStateException:No Scope registered for scope 'thread'!!!] 
+2015-07-16T10:53:06.645+0300 | GoEuro: | ERROR | (HttpCommunication.java:172) | [main] | Error while making request. Exception message  
+2015-07-16T10:54:25.331+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:54:25.334+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:54:25.334+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:54:25.362+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:54:25.418+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:54:25.421+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:54:25.661+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@4863e4f2 
+2015-07-16T10:54:25.668+0300 | GoEuro: | INFO  | (HttpCommunication.java:141) | [main] | Response null 
+2015-07-16T10:54:25.678+0300 | GoEuro: | INFO  | (HttpCommunication.java:146) | [main] | Response null 
+2015-07-16T10:54:25.679+0300 | GoEuro: | INFO  | (HttpCommunication.java:149) | [main] | Response null 
+2015-07-16T10:54:26.152+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T10:58:16.075+0300 | GoEuro: | INFO  | (GoEuroTest.java:51) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:58:16.077+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:58:16.078+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:58:16.105+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:58:16.148+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:58:16.152+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:58:16.405+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@28454d3e 
+2015-07-16T10:58:16.412+0300 | GoEuro: | INFO  | (HttpCommunication.java:141) | [main] | Response null 
+2015-07-16T10:58:16.423+0300 | GoEuro: | INFO  | (HttpCommunication.java:146) | [main] | Response null 
+2015-07-16T10:58:16.423+0300 | GoEuro: | INFO  | (HttpCommunication.java:149) | [main] | Response null 
+2015-07-16T10:58:16.634+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T10:58:16.787+0300 | GoEuro: | INFO  | (GoEuroTest.java:46) | [main] | Response received [{_id=444422, key=null, name=Testico, fullName=Testico, Italy, iata_airport_code=null, type=location, country=Italy, geo_position={latitude=44.00563, longitude=8.02925}, locationId=144029, inEurope=true, countryCode=IT, coreCountry=true, distance=null}, {_id=418225, key=null, name=Testorf-Steinfort, fullName=Testorf-Steinfort, Germany, iata_airport_code=null, type=location, country=Germany, geo_position={latitude=53.78333, longitude=11.26667}, locationId=117399, inEurope=true, countryCode=DE, coreCountry=true, distance=null}, {_id=379534, key=null, name=La Teste-de-Buch, fullName=La Teste-de-Buch, France, iata_airport_code=null, type=location, country=France, geo_position={latitude=44.62875, longitude=-1.14059}, locationId=11721, inEurope=true, countryCode=FR, coreCountry=false, distance=null}] 
+2015-07-16T10:59:49.610+0300 | GoEuro: | INFO  | (GoEuroTest.java:54) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T10:59:49.612+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T10:59:49.612+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T10:59:49.636+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T10:59:49.675+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:59:49.678+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T10:59:49.907+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@5dd23619 
+2015-07-16T10:59:49.913+0300 | GoEuro: | INFO  | (HttpCommunication.java:141) | [main] | Response null 
+2015-07-16T10:59:49.923+0300 | GoEuro: | INFO  | (HttpCommunication.java:146) | [main] | Response null 
+2015-07-16T10:59:49.924+0300 | GoEuro: | INFO  | (HttpCommunication.java:149) | [main] | Response null 
+2015-07-16T10:59:50.274+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:00:07.889+0300 | GoEuro: | INFO  | (GoEuroTest.java:54) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:00:07.891+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T11:00:07.892+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:00:07.919+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:00:07.961+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:00:07.964+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:00:08.232+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@38cb9502 
+2015-07-16T11:00:08.460+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:00:49.839+0300 | GoEuro: | INFO  | (GoEuroTest.java:55) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:00:49.842+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T11:00:49.842+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:00:49.870+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:00:49.929+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:00:49.934+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:00:50.218+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@25693b9b 
+2015-07-16T11:00:52.576+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:00:52.723+0300 | GoEuro: | INFO  | (GoEuroTest.java:46) | [main] | received response: 
+2015-07-16T11:01:13.802+0300 | GoEuro: | INFO  | (GoEuroTest.java:55) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:01:13.804+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T11:01:13.804+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:01:13.829+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:01:13.867+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:01:13.871+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:01:14.102+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@1fc8504d 
+2015-07-16T11:01:14.321+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:01:14.466+0300 | GoEuro: | INFO  | (GoEuroTest.java:46) | [main] | received response [{_id=444422, key=null, name=Testico, fullName=Testico, Italy, iata_airport_code=null, type=location, country=Italy, geo_position={latitude=44.00563, longitude=8.02925}, locationId=144029, inEurope=true, countryCode=IT, coreCountry=true, distance=null}, {_id=418225, key=null, name=Testorf-Steinfort, fullName=Testorf-Steinfort, Germany, iata_airport_code=null, type=location, country=Germany, geo_position={latitude=53.78333, longitude=11.26667}, locationId=117399, inEurope=true, countryCode=DE, coreCountry=true, distance=null}, {_id=379534, key=null, name=La Teste-de-Buch, fullName=La Teste-de-Buch, France, iata_airport_code=null, type=location, country=France, geo_position={latitude=44.62875, longitude=-1.14059}, locationId=11721, inEurope=true, countryCode=FR, coreCountry=false, distance=null}] 
+2015-07-16T11:33:24.210+0300 | GoEuro: | INFO  | (GoEuroTest.java:55) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:33:24.213+0300 | GoEuro: | INFO  | (GoEuroTest.java:39) | [main] | Path param 1 
+2015-07-16T11:33:24.213+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:33:24.241+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:33:24.292+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:33:24.295+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:33:24.566+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@1fc8504d 
+2015-07-16T11:33:24.976+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:33:25.131+0300 | GoEuro: | INFO  | (GoEuroTest.java:46) | [main] | received response {_id=444422, key=null, name=Testico, fullName=Testico, Italy, iata_airport_code=null, type=location, country=Italy, geo_position={latitude=44.00563, longitude=8.02925}, locationId=144029, inEurope=true, countryCode=IT, coreCountry=true, distance=null} 
+2015-07-16T11:44:58.143+0300 | GoEuro: | INFO  | (GoEuroTest.java:57) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:44:58.145+0300 | GoEuro: | INFO  | (GoEuroTest.java:41) | [main] | Path param 1 
+2015-07-16T11:44:58.145+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:44:58.170+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:44:58.209+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:44:58.212+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:44:58.451+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@65cea4cc 
+2015-07-16T11:44:58.866+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:45:45.732+0300 | GoEuro: | INFO  | (GoEuroTest.java:59) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:45:45.734+0300 | GoEuro: | INFO  | (GoEuroTest.java:41) | [main] | Path param 1 
+2015-07-16T11:45:45.734+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:45:45.760+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:45:45.799+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:45:45.802+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:45:46.035+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@3da3d36f 
+2015-07-16T11:45:46.369+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-16T11:45:46.573+0300 | GoEuro: | INFO  | (GoEuroTest.java:48) | [main] | RESPONSE JSON : [{_id=444422, key=null, name=Testico, fullName=Testico, Italy, iata_airport_code=null, type=location, country=Italy, geo_position={latitude=44.00563, longitude=8.02925}, locationId=144029, inEurope=true, countryCode=IT, coreCountry=true, distance=null}, {_id=418225, key=null, name=Testorf-Steinfort, fullName=Testorf-Steinfort, Germany, iata_airport_code=null, type=location, country=Germany, geo_position={latitude=53.78333, longitude=11.26667}, locationId=117399, inEurope=true, countryCode=DE, coreCountry=true, distance=null}, {_id=379534, key=null, name=La Teste-de-Buch, fullName=La Teste-de-Buch, France, iata_airport_code=null, type=location, country=France, geo_position={latitude=44.62875, longitude=-1.14059}, locationId=11721, inEurope=true, countryCode=FR, coreCountry=false, distance=null}] 
+2015-07-16T11:46:21.236+0300 | GoEuro: | INFO  | (GoEuroTest.java:59) | [main] | No param or more than one provided, please enter only one path param in order to make the request 
+2015-07-16T11:46:21.238+0300 | GoEuro: | INFO  | (GoEuroTest.java:41) | [main] | Path param 1 
+2015-07-16T11:46:21.238+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-16T11:46:21.268+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test 1 {Content-Type=[application/json]} 
+2015-07-16T11:46:21.338+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:46:21.342+0300 | GoEuro: | DEBUG | (HttpCommunication.java:133) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-16T11:46:21.604+0300 | GoEuro: | INFO  | (HttpCommunication.java:133) | [main] | Response org.jboss.resteasy.client.jaxrs.ResteasyClient@4251460f 
+2015-07-16T11:46:21.920+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 

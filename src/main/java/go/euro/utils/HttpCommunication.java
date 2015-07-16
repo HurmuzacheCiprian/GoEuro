@@ -20,13 +20,16 @@ import org.slf4j.LoggerFactory;
  * <p/>
  * Created by churmuzache on 7/14/15.
  */
-public abstract class HttpCommunication {
+public class HttpCommunication {
 
     private Client clientRequest;
 
     private static final Logger logger = LoggerFactory.getLogger(HttpCommunication.class);
 
     public HttpCommunication(Client clientRequest) {
+        if (clientRequest == null) {
+            throw new IllegalArgumentException("Client cannot be null");
+        }
         this.clientRequest = clientRequest;
     }
 
@@ -125,8 +128,9 @@ public abstract class HttpCommunication {
                     uri += "/" + pathParam;
                 }
             }
-            logger.info("Making request to ",uri);
+            logger.info("Making request to {} {} {}",uri,pathParams.size(), headers,defaultMediaType);
 
+            logger.info("Response {}",clientRequest);
             WebTarget webTarget = clientRequest.target(uri);
             if (queryParams != null) {
                 for (QueryParams queryParam : queryParams) {
@@ -138,7 +142,6 @@ public abstract class HttpCommunication {
             if (headers != null) {
                 builder = builder.headers(headers);
             }
-
             switch(verb) {
                 case GET:
                     response = builder.get();

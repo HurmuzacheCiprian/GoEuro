@@ -24,6 +24,10 @@ public class RequestService {
     /** **/
     private static final Logger logger = LoggerFactory.getLogger(RequestService.class);
 
+    public RequestService(HttpCommunication httpCommunication) {
+        this.httpHelper=httpCommunication;
+    }
+
     /**
      * General request method for multiple headers and multiple path params.
      * @param headers

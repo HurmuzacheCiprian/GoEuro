@@ -17,6 +17,16 @@
     <context:property-placeholder location="classpath:goeuro.properties"/>
     <context:annotation-config/>
 
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="thread">
+                    <bean class="org.springframework.context.support.SimpleThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
     <bean id="clientRequest" class="javax.ws.rs.client.ClientBuilder"
           factory-method="newClient" scope="thread">
         <aop:scoped-proxy/>
@@ -28,6 +38,7 @@
 
     <bean id="requestService" class="go.euro.service.RequestService">
         <property name="uri" value="${goeuro.endpoint}"/>
+        <constructor-arg index="0" ref="requestUtils"/>
     </bean>
 
 </beans>

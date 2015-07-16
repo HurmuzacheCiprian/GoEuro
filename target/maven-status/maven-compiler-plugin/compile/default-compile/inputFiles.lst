@@ -1,6 +1,6 @@
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/service/RequestService.java
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/main/GoEuroTest.java
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/model/GoEuroResponse.java
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/utils/HttpCommunication.java
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/utils/HttpValidator.java
-/home/ciprian/Workspace/Work/workspaces/GoEuro/GoEuro/src/main/java/go/euro/enums/FileFormat.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/enums/FileFormat.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/main/GoEuroTest.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/utils/HttpValidator.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/utils/HttpCommunication.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/service/RequestService.java
+/home/churmuzache/personal/GoEuroRepo/GoEuro/src/main/java/go/euro/model/GoEuroResponse.java
