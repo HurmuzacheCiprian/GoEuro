@@ -55,12 +55,18 @@ public abstract class HttpValidator {
 
     public static <T> void validateResponse(Response response, Class<T> errorClazz) {
         logger.info("Validating the response that came...");
-        int responseStatus = response.getStatus();
-        if (Family.familyOf(responseStatus) != Family.SUCCESSFUL) {
-            T responseEntity = null;
-            if (response.hasEntity()) {
-                responseEntity = response.readEntity(errorClazz);
+        int responseStatus=0;
+        T responseEntity = null;
+        try {
+            responseStatus = response.getStatus();
+            if (Family.familyOf(responseStatus) != Family.SUCCESSFUL) {
+                logger.info("Response came with error code...");
+                if (response.hasEntity()) {
+                    responseEntity = response.readEntity(errorClazz);
+                }
+
             }
+        }catch (Exception exception) {
             throw new HttpFamilyResponseException("Response came with status " + responseStatus, responseStatus).withEntity(responseEntity.toString());
         }
     }

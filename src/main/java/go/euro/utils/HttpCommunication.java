@@ -128,9 +128,8 @@ public class HttpCommunication {
                     uri += "/" + pathParam;
                 }
             }
-            logger.info("Making request to {} {} {}",uri,pathParams.size(), headers,defaultMediaType);
+            logger.info("Making request to {} {} {}",uri, headers,defaultMediaType);
 
-            logger.info("Response {}",clientRequest);
             WebTarget webTarget = clientRequest.target(uri);
             if (queryParams != null) {
                 for (QueryParams queryParam : queryParams) {

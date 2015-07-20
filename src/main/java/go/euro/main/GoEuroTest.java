@@ -1,10 +1,8 @@
 package go.euro.main;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import go.euro.model.GoEuroResponse;
+import go.euro.model.GoEuroModel;
+import go.euro.model.GoEuroResponseModel;
 import go.euro.service.RequestService;
-import org.apache.commons.codec.binary.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
@@ -31,29 +29,27 @@ public class GoEuroTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml");
         RequestService requestService = context.getBean("requestService",RequestService.class);
 
-
-
-
-        if(checkArgs(args)) {
-            pathParams.add("test");
-        }
         pathParams.add("test");
-        logger.info("Path param {}",pathParams.size());
 
-        Map<String,String> h = createHeaders(headers,"Content-Type","application/json");
-        Response response = requestService.getRequest(h,pathParams);
+        createHeaders(headers,"Content-Type","application/json");
+        createHeaders(headers,"Accept","application/json");
 
-        Gson gson = new Gson();
-        String json = readResponse(response, GoEuroResponse.class).toString();
-        logger.info("RESPONSE JSON : {}",json);
-        List<GoEuroResponse> euroResponses = gson.fromJson(json, new TypeToken<List<GoEuroResponse>>(){}.getType());
+        Response response = requestService.getRequest(headers,pathParams);
 
-        for(GoEuroResponse goEuroResponse : euroResponses) {
-            logger.info("received response:",goEuroResponse);
+        GoEuroModel[] responseModel = readResponse(response,GoEuroModel[].class);
+
+        for(int i=0;i<responseModel.length;i++) {
+            logger.info("{}",responseModel[i].get_id());
         }
 
+        //write to CSV file.
     }
 
+    /**
+     * more additional checks could be made
+     * @param args
+     * @return
+     */
     private static boolean checkArgs(String[] args) {
         if(args.length >= 0) {
             logger.info("No param or more than one provided, please enter only one path param in order to make the request");
