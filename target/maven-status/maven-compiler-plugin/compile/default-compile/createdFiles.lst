@@ -1,13 +1,17 @@
 go/euro/utils/HttpValidator$HttpFamilyResponseException.class
 go/euro/main/GoEuroTest.class
+go/euro/utils/GoEuroFileWriter$1.class
 go/euro/model/GoEuroResponseModel.class
 go/euro/utils/HttpValidator$HttpValidationException.class
 go/euro/service/RequestService.class
 go/euro/utils/HttpValidator.class
 go/euro/enums/FileFormat.class
 go/euro/utils/HttpCommunication.class
+go/euro/utils/GoEuroFileWriter.class
 go/euro/model/GoEuroModel$GeoPosition.class
+go/euro/model/ErrorResponse.class
 go/euro/utils/HttpCommunication$HttpVerbEnum$HttpVerbException.class
+go/euro/model/CsvModel.class
 go/euro/utils/HttpCommunication$1.class
 go/euro/utils/HttpCommunication$QueryParams.class
 go/euro/model/GoEuroModel.class

@@ -1,5 +1,6 @@
 package go.euro.utils;
 
+import go.euro.model.ErrorResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,13 +23,13 @@ public abstract class HttpValidator {
     public static class HttpFamilyResponseException extends RuntimeException {
 
         private int responseStatus;
-        private String errorEntity;
+        private ErrorResponse errorEntity;
 
-        public String getErrorEntity() {
+        public ErrorResponse getErrorEntity() {
             return errorEntity;
         }
 
-        public void setErrorEntity(String errorEntity) {
+        public void setErrorEntity(ErrorResponse errorEntity) {
             this.errorEntity = errorEntity;
         }
 
@@ -46,14 +47,14 @@ public abstract class HttpValidator {
         }
 
 
-        public HttpFamilyResponseException withEntity(String errorEntity) {
+        public HttpFamilyResponseException withEntity(ErrorResponse errorEntity) {
             this.setErrorEntity(errorEntity);
             return this;
         }
 
     }
 
-    public static <T> void validateResponse(Response response, Class<T> errorClazz) {
+    public static <T extends ErrorResponse> void validateResponse(Response response, Class<T> errorClazz) {
         logger.info("Validating the response that came...");
         int responseStatus=0;
         T responseEntity = null;
@@ -63,11 +64,12 @@ public abstract class HttpValidator {
                 logger.info("Response came with error code...");
                 if (response.hasEntity()) {
                     responseEntity = response.readEntity(errorClazz);
+                    throw new HttpFamilyResponseException("Response came with status " + responseStatus, responseStatus).withEntity(responseEntity);
                 }
 
             }
         }catch (Exception exception) {
-            throw new HttpFamilyResponseException("Response came with status " + responseStatus, responseStatus).withEntity(responseEntity.toString());
+            throw new HttpFamilyResponseException("Response came with status " + responseStatus, responseStatus);
         }
     }
 

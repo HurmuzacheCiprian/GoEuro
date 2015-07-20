@@ -11,6 +11,7 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 import java.util.Map;
 
+import go.euro.model.ErrorResponse;
 import go.euro.utils.HttpValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -157,7 +158,7 @@ public class HttpCommunication {
                 default:
                     throw new HttpVerbEnum.HttpVerbException("Unknown http request method invoked");
             }
-            HttpValidator.validateResponse(response,String.class);
+            HttpValidator.validateResponse(response,ErrorResponse.class);
         } catch( HttpVerbEnum.HttpVerbException verbException) {
             logger.error(verbException.getMessage());
             return Response.status(Response.Status.NOT_IMPLEMENTED).build();

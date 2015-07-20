@@ -1,11 +1,13 @@
 package go.euro.model;
 
+import java.io.Serializable;
+
 /**
  * Response class
  *
  * Created by churmuzache on 7/14/15.
  */
-public class GoEuroModel {
+public class GoEuroModel implements Serializable{
 
     private long _id;
     private String key;

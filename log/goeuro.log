@@ -257,3 +257,19 @@
 2015-07-17T10:58:12.994+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 444422 
 2015-07-17T10:58:12.994+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 418225 
 2015-07-17T10:58:12.994+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 379534 
+2015-07-20T12:54:32.768+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-20T12:54:32.795+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test {Content-Type=[application/json], Accept=[application/json]} application/json 
+2015-07-20T12:54:32.882+0300 | GoEuro: | DEBUG | (Slf4jLogger.java:62) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-20T12:54:32.886+0300 | GoEuro: | DEBUG | (Slf4jLogger.java:62) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-20T12:54:33.424+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-20T12:54:33.625+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 444422 
+2015-07-20T12:54:33.625+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 418225 
+2015-07-20T12:54:33.625+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 379534 
+2015-07-20T14:12:50.965+0300 | GoEuro: | INFO  | (RequestService.java:38) | [main] | Making GET request to http://api.goeuro.com/api/v2/position/suggest/en/ 
+2015-07-20T14:12:50.991+0300 | GoEuro: | INFO  | (HttpCommunication.java:131) | [main] | Making request to http://api.goeuro.com/api/v2/position/suggest/en/test {Content-Type=[application/json], Accept=[application/json]} application/json 
+2015-07-20T14:12:51.039+0300 | GoEuro: | DEBUG | (Slf4jLogger.java:62) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-20T14:12:51.042+0300 | GoEuro: | DEBUG | (Slf4jLogger.java:62) | [main] | Unable to retrieve config: expandEntityReferences defaults to true 
+2015-07-20T14:12:51.650+0300 | GoEuro: | INFO  | (HttpValidator.java:57) | [main] | Validating the response that came... 
+2015-07-20T14:12:51.805+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 444422 
+2015-07-20T14:12:51.805+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 418225 
+2015-07-20T14:12:51.805+0300 | GoEuro: | INFO  | (GoEuroTest.java:42) | [main] | 379534 

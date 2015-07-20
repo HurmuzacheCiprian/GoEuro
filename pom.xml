@@ -49,6 +49,12 @@
     </dependency>
     <!-- Resteasy -->
 
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.8</version>
+        </dependency>
+
         <!-- Spring framework -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -141,8 +147,11 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+
+
                             <transformers>
                                 <!-- add Main-Class to manifest file -->
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>go.euro.main.GoEuroTest</mainClass>
                                 </transformer>
@@ -152,8 +161,13 @@
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>META-INF/spring.schemas</resource>
                                 </transformer>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>META-INF/spring.tooling</resource>
+                                </transformer>
                             </transformers>
+
                         </configuration>
+
                     </execution>
                 </executions>
             </plugin>
